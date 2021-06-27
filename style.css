@@ -1,0 +1,75 @@
+body{
+    background-image : url("gif snow.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+a:link, a:visited
+    {
+        background-color: black;
+        margin-left: 0.2cm;
+        color:#AAB7B8;
+        text-decoration: none;
+        text-align: center;
+        display: inline-block;
+        font-family:ink free ;
+        font font-size: 100%
+    }
+
+
+a:hover
+    {
+        color:#2E4053;
+        cursor: grabbing;
+        background-color: rgb(255, 160, 122);
+        text-decoration: underline;
+    }
+
+a:active
+    {
+        color: green;
+        background-color: yellow;
+        text-decoration: underline;
+    }
+
+h1{
+    font-family: ink free;
+    font-size: 72;
+	text-align: center;
+}
+h2{
+    text-align: center;
+    font-family: ink free;
+     color: #5D6D7E;
+     font-size:50;
+}
+h3{
+    text-align: center;
+   font-family: ink free;
+     color: black;
+     font-size:40;
+}
+h4{text-align: center;
+        font-family: georgia;
+        color: black;
+}
+h5{font-family: georgia;
+     color: black;
+     text-align:justify;
+ }
+
+p{
+     background-color:white;
+     text-align: center;
+	 font-family: georgia;
+     color: black;
+}
+
+table,th,td{
+      font-family: Adorable;
+      border-collapse: collapse;
+      width: auto;
+      border: 1px solid black;
+      padding: 5px;
+      background-color:#D0D3D4; 
+}
